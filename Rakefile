@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "enum_column_g"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.name = "enum_column"
+    gem.summary = %Q{Ruby on Rails Enumerated Column Constraints}
+    gem.description = %Q{Ruby on Rails Enumerated Column Constraints}
     gem.email = "stephan.kaag@gmail.com"
-    gem.homepage = "http://github.com/stephankaag/enum_column_g"
+    gem.homepage = "http://github.com/stephankaag/enum_column"
     gem.authors = ["Stephan Kaag"]
     gem.add_development_dependency "thoughtbot-shoulda"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
@@ -50,7 +50,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "enum_column_g #{version}"
+  rdoc.title = "enum_column #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
